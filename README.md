@@ -1,13 +1,17 @@
 # Recursos-Sysadmin
 
+
+## Comandos generales
+
+
 ## Redes
 
 Cambiar dirección IP
-'''
+```
 /etc/network/interfaces
-'''
+```
 
-## Escritorio
+## Crear Lanzador
 Crear lanzador
 ```
 nano /usr/share/applications/Zotero.desktop
@@ -22,4 +26,9 @@ Terminal=false
 Categories=Office;
 MimeType=text/plain;x-scheme-handler/zotero;application/x-research-info-systems>
 X-GNOME-SingleWindow=true
+```
+
+## Hacer memorias booteables
+```
+dd if/ruta/imagen.iso of=/dev/sdc status=progress
 ```
