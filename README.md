@@ -3,6 +3,7 @@
 
 ## Comandos generales
 
+Mostrar dispositivos conctados: ```lsblk```
 
 ## Redes
 
