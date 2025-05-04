@@ -33,3 +33,7 @@ X-GNOME-SingleWindow=true
 ```
 dd if/ruta/imagen.iso of=/dev/sdc status=progress
 ```
+
+## Kernel
+
+Instalación de librerias para virtualizar
