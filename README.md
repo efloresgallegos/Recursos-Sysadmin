@@ -38,9 +38,9 @@ dd if/ruta/imagen.iso of=/dev/sdc status=progress
 
 Instalación de headers para virtualizar
 1. Verificar version del kernel
-´´´ uname -r ´´´
+``` uname -r ```
 2. Instalar  
-´´´apt install linux-headers-$(uname -r)´´´
+```apt install linux-headers-$(uname -r)```
 
 
 
